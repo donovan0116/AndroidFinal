@@ -3,11 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android_Work_Place/Weather4/app/src/main/res/layout/activity_main.xml" value="0.16458333333333333" />
-        <entry key="..\:/Android_Work_Place/Weather4/app/src/main/res/layout/activity_tips.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android_Work_Place/Weather4/app/src/main/res/layout/activity_login.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android_Work_Place/Weather4/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android_Work_Place/Weather4/app/src/main/res/layout/activity_refresh_info.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android_Work_Place/Weather4/app/src/main/res/layout/activity_refresh_password.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android_Work_Place/Weather4/app/src/main/res/layout/activity_register.xml" value="0.17916666666666667" />
+        <entry key="..\:/Android_Work_Place/Weather4/app/src/main/res/layout/activity_tips.xml" value="0.25" />
+        <entry key="..\:/Android_Work_Place/Weather4/app/src/main/res/layout/activity_user_info.xml" value="0.17916666666666667" />
         <entry key="..\:/Android_Work_Place/Weather4/app/src/main/res/layout/sp_item_layout.xml" value="0.16458333333333333" />
         <entry key="..\:/Android_Work_Place/Weather4/app/src/main/res/layout/tips_item_layout.xml" value="0.17916666666666667" />
         <entry key="..\:/Android_Work_Place/Weather4/app/src/main/res/layout/weather_item_layout.xml" value="0.16458333333333333" />
+        <entry key="..\:/Android_Work_Place/Weather4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1953125" />
       </map>
     </option>
   </component>

@@ -11,10 +11,10 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
     private FutureWeatherAdapter futureWeatherAdapter;
 
     private DayWeatherBean today;
+
+    private Button btLogin;
+    private Button btUserInfo;
 
     private Handler handler = new Handler(Looper.myLooper()) {
         @Override
@@ -159,6 +162,25 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btLogin = findViewById(R.id.bt_login);
+        btLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btUserInfo = findViewById(R.id.bt_user_info);
+        btUserInfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, UserInfoActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void getWeatherOfCity(String selectedCity) {

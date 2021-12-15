@@ -3,10 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_cloudy"
+    android:background="@drawable/bg_clear_day"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -22,7 +23,27 @@
             android:overlapAnchor="false"
             android:popupBackground="@color/trans"
             android:spinnerMode="dropdown" />
+
+        <Button
+            android:id="@+id/bt_user_info"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginRight="160dp"
+            android:background="@color/trans"
+            android:text="主页"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/trans"
+            android:text="登录"
+            android:textSize="20sp" />
     </RelativeLayout>
+
 
     <ImageView
         android:id="@+id/iv_weather"
@@ -70,8 +91,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="kongqi:53liang\nshiyichuxing"
         android:gravity="center"
+        android:text="kongqi:53liang\nshiyichuxing"
         android:textColor="@color/white"
         android:textSize="20sp" />
 
@@ -79,7 +100,7 @@
         android:id="@+id/rlv_future_weather"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp" />
 
 
 </LinearLayout>
